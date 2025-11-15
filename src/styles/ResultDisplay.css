@@ -1,0 +1,23 @@
+.result-display {
+    background-color: #111827;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    border: 1px solid #1f2937;
+  }
+  
+  .result-display h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .result-message {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .result-summary {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+  }
+  

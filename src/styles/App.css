@@ -1,0 +1,69 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .app-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-header {
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background-color: #111827;
+    border-bottom: 1px solid #1f2937;
+  }
+  
+  .app-header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.75rem;
+  }
+  
+  .app-header p {
+    margin: 0;
+    color: #9ca3af;
+  }
+  
+  .app-main {
+    flex: 1;
+    padding: 1.5rem 1rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .throws-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .throws-section {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  .result-section,
+  .score-section {
+    margin-top: 0.5rem;
+  }
+  
+  .app-footer {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    background-color: #111827;
+    border-top: 1px solid #1f2937;
+    color: #6b7280;
+  }
+  

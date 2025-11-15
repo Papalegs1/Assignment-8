@@ -1,0 +1,71 @@
+.player-throw {
+    background-color: #111827;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    border: 1px solid #1f2937;
+  }
+  
+  .player-throw h2 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+  }
+  
+  .player-instruction {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: #9ca3af;
+  }
+  
+  .throw-options {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  
+  .throw-button {
+    flex: 1;
+    min-width: 90px;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    border: 1px solid #374151;
+    background-color: #1f2937;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    transition: transform 0.1s ease, box-shadow 0.1s ease,
+      border-color 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .throw-button:hover:not(:disabled),
+  .throw-button:focus-visible:not(:disabled) {
+    outline: none;
+    border-color: #fbbf24;
+    box-shadow: 0 0 0 1px #fbbf24;
+    transform: translateY(-1px);
+  }
+  
+  .throw-button.selected {
+    border-color: #22c55e;
+    box-shadow: 0 0 0 1px #22c55e;
+    background-color: #064e3b;
+  }
+  
+  .throw-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .throw-image {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+  
+  .throw-label {
+    font-size: 0.9rem;
+  }
+  

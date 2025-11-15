@@ -1,0 +1,46 @@
+.scoreboard {
+    background-color: #111827;
+    border-radius: 0.75rem;
+    padding: 1rem;
+  }
+  
+  .scoreboard h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+  
+  .score-grid {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+  }
+  
+  .score-item {
+    flex: 1;
+    min-width: 80px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #020617;
+    text-align: center;
+  }
+  
+  .score-label {
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+  
+  .score-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .reset-button {
+    border-radius: 0.5rem;
+    border: 1px solid #b91c1c;
+    background-color: #7f1d1d;
+    color: #fee2e2;
+    padding: 0.5rem 0.9rem;
+    cursor: pointer;
+  }
+  
