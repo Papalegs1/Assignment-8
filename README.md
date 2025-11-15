@@ -1,16 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Author: James Wilds III
+Course: CSC 372 – Web Development
+GitHub Repo: (https://github.com/Papalegs1/Assignment-8)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Video Link [[https://teams.microsoft.com/l/meetingrecap?driveId=b%21TIpgIgRfTkOkTgYutOtvQV1wGrYfZ5FHuwYUq3xeY8GIEh5ZoUlyT6-lD__AnnN_&driveItemId=0164KZGMWIN2U426B4OZDIGOXK4N33VBLD&sitePath=https%3A%2F%2Funcg-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fjhwilds_uncg_edu%2FIQDIbqnNeDx2RoM66uN3uoVjAap8VbZE5pnxHKlTy4mIHmg&fileUrl=https%3A%2F%2Funcg-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fjhwilds_uncg_edu%2FIQDIbqnNeDx2RoM66uN3uoVjAap8VbZE5pnxHKlTy4mIHmg&threadId=19%3Ameeting_MGJjNTYwZWQtYjUwNy00MDFlLWEyOTEtMTE3NDk1Y2I5MjY3%40thread.v2&organizerId=9d203d57-b806-4129-81e8-570a1309b5c7&tenantId=73e15cf5-5dbb-46af-a862-753916269d73&callId=116f75cf-8949-427c-9bed-54bd5fdf5fac&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet](https://uncg-my.sharepoint.com/:v:/g/personal/jhwilds_uncg_edu/IQCaTWosPFo3RK0A4DDadIBdAc_8lpFWHcwZav-BOiIrHi4)]
